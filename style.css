@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Futura', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1000px;
+    overflow: hidden;
+    min-height: 45px;
+    margin: auto;
+    /* background-color: #cccccc; */
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 650px;
+}
+
+#wrapper #header {
+    height: 60px;
+    background-color: black;
+}
+#wrapper #header span{
+    /* background-color: blanchedalmond; */
+    line-height: 60px;
+    float: left;
+}
+#wrapper #header span.satu{
+    /* background-color: blanchedalmond; */
+    float: left;
+}
+#wrapper #header span.satu a{
+    /* background-color: blanchedalmond; */
+    color: white;
+    font-size: 32px;
+    line-height: 60px;
+    float: left;
+}
+#wrapper #header span.dua{
+    /* background-color: blue; */
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    float: left;
+    width: 270px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#wrapper #header span.dua li{
+    /* background-color: tomato; */
+    float: left;
+    width: 90px;
+    height: 60px;
+}
+#wrapper #header span.duatiga{
+    /* background-color: tomato; */
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#wrapper #header span.duatiga input{
+    /* background-color: tomato; */
+    /* float: left; */
+    width: 295px;
+    height: 20px;
+}
+#wrapper #header span.tiga{
+    /* background-color: pink; */
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    float: right;
+    width: 220px;
+    height: 60px;
+}
+#wrapper #header span.tiga li{
+    /* background-color: tomato; */
+    float: right;
+    width: 40px;
+    height: 60px;
+    margin-left: 10px;
+}
+#wrapper #header span.tiga img{
+    background-color: white;
+    width: 36px;
+    border-radius: 18px;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+
+#wrapper #header ul{
+    list-style-type: none;
+}
+#wrapper #header  ul li{
+    /* margin-left: 5px; */
+    float: left;
+    width: 80px;
+}
+#wrapper #header a {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700px;
+    text-decoration: none;
+    display: block;
+    height: 79px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper #header .dua a:hover {
+    color: lime;
+    text-decoration: underline;
+}
+#wrapper #header-bottom {
+    /* background-color: turquoise; */
+    margin-top: 5px;
+    margin-bottom: 25px;
+    height: 35px;
+}
+#wrapper #header-bottom .header-bottom-left{    /* margin-left: 5px; */
+    float: left;
+    width: 185px;
+    /* background-color: pink; */
+    height: 24px;
+    width: 750px;
+    float: left;
+}
+#wrapper #header-bottom .header-bottom-left a:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+    color: black;       
+    text-decoration: underline;
+    /* background-color: gainsboro; */
+}
+#wrapper #header-bottom .header-bottom-left img{
+    /* background-color: pink; */
+    height: 22px;
+    width: 20px;
+    float: left;
+    vertical-align: 35px;
+}
+#wrapper #header-bottom .header-bottom-right{
+    background-color: rgb(190, 189, 189);
+    height: 24px;
+    width: 250px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+#wrapper #header-bottom .header-bottom-right:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+    color: black;
+    background-color: gainsboro;
+}
+
+#wrapper #header-bottom .header-bottom-right img{
+    /* background-color: pink; */
+    height: 22px;
+    width: 20px;
+    float: right;
+    vertical-align: 35px;
+}
+#wrapper #header-bottom ul{
+    list-style-type: none;
+}
+#wrapper #header-bottom  ul li{
+    margin-right: 10px;
+    float: left;
+    width: 177px;
+}
+#wrapper #header-bottom a {
+    /* background-color: teal; */
+    line-height: 24px;
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+    text-decoration: none;
+    display: block;
+    height: 79px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#wrapper #sliderwrapper {
+    /* background-color: turquoise; */
+    height: 360px;
+}
+
+#wrapper #sliderwrapper #banner {
+    background-image: url(images/icon/banner.png);
+    background-size: cover;
+    min-height: 360px;
+}
+
+#wrapper #sliderwrapper #banner .wanita a{
+    background-color: white;
+    width: 125px;
+    margin-top: 180px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    opacity: 0.7;
+    text-decoration: none;
+}
+#wrapper #sliderwrapper #banner .pria a{
+    background-color: white;
+    width: 125px;
+    margin-top: 180px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    text-align: center;
+    opacity: 0.7;
+    text-decoration: none;
+}
+#wrapper #sliderwrapper #banner a:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+
+}
+#wrapper  #payment-promo {
+    background-color: orangered;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* position: relative; */
+}
+#wrapper  #payment-promo img {
+    width: 65px;
+    margin-top: 3px;
+    margin-bottom: -5px;
+    float: left;
+}
+#wrapper #payment-promo span {
+   color: white;
+   font-size: 14px;
+   line-height: 30px;
+   font-weight: bold;
+   margin-left: 240px;
+}
+#wrapper #payment-promo a{
+    height: 30px;
+    float: right;
+    color: white;
+}
+#wrapper #payment-promo a {
+    /* background-color: teal; */
+
+    border-radius: 5px;
+    padding: 0px 5px;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper #payment-promo a:hover {
+    color: lightskyblue;
+}
+#wrapper #content #content_top .content_top_item img{
+    width: 320px;
+    height: auto;
+    margin-bottom: 10px;
+}
+#wrapper #content #content_top .content_top_item p {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-align: center;
+}
+#wrapper #content #content_top .content_top_item h1 {
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
